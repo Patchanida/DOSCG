@@ -29,6 +29,10 @@
   to { transform: rotate(360deg); }
 }
 
+.content {
+  margin: 0px 100px;
+}
+
 .logo {
   width: 60px;
   height: 50px;
@@ -40,7 +44,6 @@
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -48,4 +51,30 @@
     color: rgba(255,255,255,.5);
     text-align: center;
     padding: 20px 0px;
+}
+
+.profile {
+  margin: 20px;
+  width: 200px;
+}
+
+.text-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.primary-color {
+  color: #8b0305;
+}
+
+.text-description {
+  font-size: 20px;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+ul.square {
+  list-style-type: square;
 }
