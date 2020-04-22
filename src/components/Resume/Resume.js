@@ -39,6 +39,15 @@ export class Resume extends Component {
                             topic1="EDUCATION"
                             description="Burapha University | Faculty of Information Technology | GPA 3.45"
                         />
+                        <TopicAndDescription
+                            icon="fas fa-id-card-alt"
+                            topic1="CONTACT"
+                        >
+                            <ul className="square">
+                                <li className="text-description">Contact: (+66)91 747 6604</li>
+                                <li className="text-description">Email: patchanida.ktp@gmail.com</li>
+                            </ul>
+                        </TopicAndDescription>
                     </Col>
                     <Col xs={12} md={6}>
                         <TopicAndDescription
