@@ -18,6 +18,7 @@ export class Header extends Component {
             collapsed: true,
         };
     }
+
     toggle = () => {
         this.setState({
             isOpen: !this.state.isOpen
@@ -38,6 +39,9 @@ export class Header extends Component {
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink href="/">Results From API</NavLink>
+                            </NavItem>
                             <NavItem>
                                 <NavLink href="/resume">Resume</NavLink>
                             </NavItem>
