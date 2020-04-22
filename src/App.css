@@ -2,6 +2,9 @@
 
 .App {
   text-align: center;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica;
+  margin-bottom: 115px;
 }
 
 .App-logo {
@@ -24,11 +27,6 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .content {
   margin: 0px 100px;
 }
@@ -44,13 +42,17 @@
 }
 
 .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #8b0305;
-    color: rgba(255,255,255,.5);
-    text-align: center;
-    padding: 20px 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 100px;
+  max-height: 110px;
+  background-color:#8b0305;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  padding-top: 10px;
+  margin-top: 30px;
+  font-weight: 100;
 }
 
 .profile {
